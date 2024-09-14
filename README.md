@@ -13,10 +13,21 @@ pnpm dev
 # or
 bun dev
 ```
+Upon pulling this repo to your vs code editor,
+
+run the following command to install all the pre-installed dependency
+
+npm install
+# or
+npm i
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+The landiing page is located in the page.tsx file with `app/page.tsx`.
+
+Work solely on the landing page, that consists the term and privacy policy, as well as the modification of the interface.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
